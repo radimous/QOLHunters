@@ -382,8 +382,8 @@ public class QOLHuntersClientConfigs {
             CLIENT_BUILDER.pop();
 
             CLIENT_BUILDER.push(ConfigPaths.Group.ASCENSION);
-                ASCENSION_CRYSTAL_EMBER_GRANT_AMOUNT = CLIENT_BUILDER.comment("Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT>").define(ConfigPaths.ASCENSION_CRYSTAL_GRANT, true);
-                CHALLENGER_ROCK_EMBER_GRANT_AMOUNT = CLIENT_BUILDER.comment("Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT>").define(ConfigPaths.CHALLENGER_ROCK_GRANT, true);
+                ASCENSION_CRYSTAL_EMBER_GRANT_AMOUNT = CLIENT_BUILDER.comment("Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Ascension Crystals").define(ConfigPaths.ASCENSION_CRYSTAL_GRANT, true);
+                CHALLENGER_ROCK_EMBER_GRANT_AMOUNT = CLIENT_BUILDER.comment("Enable a tooltip to show the amount of Ember granted on a failed Ascension Vault while holding <SHIFT> on Challenger Rocks").define(ConfigPaths.CHALLENGER_ROCK_GRANT, true);
             CLIENT_BUILDER.pop();
 
             CLIENT_BUILDER.push(ConfigPaths.Group.HUNTER_PARTICLES_GROUP);
